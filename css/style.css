@@ -1,0 +1,80 @@
+
+h1.headertittle {
+    font-size: 50px;
+    color: #AD9BC7;
+}
+
+p.headertext {
+    font-size: 28px;
+    color: black;
+}
+
+a {
+    color: #8461b6;
+}
+
+a:hover {
+    color: #523d70;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #987cbe;
+}
+
+h3 {
+    padding-bottom: 8px;
+    padding-top: 10px;
+    color: #361e57;
+}
+
+p {
+    font-size: 20px;
+}
+
+.size {
+    font-size: 30px
+}
+
+.nav-tam {
+    font-size: 22px;
+}
+
+.imgtam {
+    max-width: 100%;
+    padding-left: 15px;
+}
+
+.espaço {
+    padding-top: 27%;
+    padding-bottom: 28%;
+    padding-left: 10%;
+}
+
+.espc {
+    width: 75%;
+    padding-left: 26%;
+}
+
+.espc2 {
+    width: 65%;
+    padding-left: 35%;
+}
+
+.exp {
+    width: 100%;
+}
+
+.animation {
+    width: 400px;
+    margin: 15px;
+  }
+  .animation img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+  .animation img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
