@@ -132,6 +132,7 @@ p {
     .espaço2 {
         padding-bottom: 8%;
     }
+    
 }
 
 @media (min-width:1000px) { 
@@ -139,7 +140,6 @@ p {
         margin: 15%;
     }
 }
-
 
 .contato {
     max-width: 20%;
@@ -158,4 +158,8 @@ h4 {
     margin-bottom: 5%;
     border-style: double;
     align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
 }
