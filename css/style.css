@@ -44,6 +44,11 @@ p {
     font-size: 22px;
 }
 
+@media (min-width: 300px)  {
+    .imgtam {
+        max-width: 50%;
+        margin-left: 12%; }
+}
 
 @media (min-width: 500px) {
     .espaço {
@@ -51,12 +56,16 @@ p {
         padding-bottom: 28%;
         padding-left: 10%;
     }
+
+    .espaço2 {
+        padding-bottom: 8%;
+    }
+
+    .imgtam {
+        max-width: 90%;
+        margin-left: 12%; }
 }
 
-.imgtam {
-    max-width: 80%;
-    margin-left: 12%;
-}
 
 @media (min-width: 1000px){
 
@@ -71,7 +80,17 @@ p {
         padding-left: 15px;
     }
 
+    .espaço2 {
+        margin: 15%;
     }
+}
+
+.contato {
+    max-width: 30%;
+    margin-left: 39%;
+    padding-left: 15px;
+}
+
 
 .espc {
     width: 75%;
@@ -128,23 +147,7 @@ p {
     background-color: #E2F7EE;
 }
 
-@media (min-width:500px) {
-    .espaço2 {
-        padding-bottom: 8%;
-    }
-    
-}
 
-@media (min-width:1000px) { 
-    .espaço2 {
-        margin: 15%;
-    }
-}
-
-.contato {
-    max-width: 20%;
-    margin-left: 39%;
-}
 
 h4 {
     padding-top: 3%;
@@ -154,7 +157,7 @@ h4 {
 .fundo {
     width: auto;
     background-color: #b7e3d4;
-    padding-top: 3%;
+    padding-left: 50px;
     margin-bottom: 5%;
     border-style: double;
     align-items: center;
@@ -162,4 +165,8 @@ h4 {
 
 html {
     scroll-behavior: smooth;
+}
+
+.comp {
+    max-width: 50%;
 }
